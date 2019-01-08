@@ -15,7 +15,7 @@ To specify the Vault address where the request to get the hashes will be sent.
 
 
 ##### vaulttoken (Required)
-The token to authenticate the call that calculates the hashes. 
+The token to authenticate the call that calculates the hashes. It should have access to `/sys/audit-hash/<vaultauditpath>` 
 
 ##### vaultcert
 For SSL communication, you can specify here the path of a CA certificate file to be used when calling the API. It defaults to: `/fluentd/etc/certs/cert.crt`
