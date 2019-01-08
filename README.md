@@ -1,8 +1,5 @@
 # fluent-plugin-filter-vaultaudit
 
-[![Build Status](https://travis-ci.org/MerlinDMC/fluent-plugin-filter-base64-decode.svg?branch=master)](https://travis-ci.org/MerlinDMC/fluent-plugin-filter-base64-decode)
-[![Gem Version](https://badge.fury.io/rb/fluent-plugin-filter-base64-decode.svg)](http://badge.fury.io/rb/fluent-plugin-filter-base64-decode)
-
 ### Overview
 A filter plugin for [Fluentd](http://www.fluentd.org/) that allows you to display **known** plain text values on [Vault](https://www.vaultproject.io/) audit logs.
 
